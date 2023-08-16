@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hi, Flask!"
+    return "Hey, Flask!"
 
 @app.route('/add', methods=['GET', 'POST'])
 def add_numbers():
